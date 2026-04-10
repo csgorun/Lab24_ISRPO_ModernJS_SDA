@@ -109,13 +109,13 @@
 
 // Практическое задание
 
-// 1. Два массива чисел
+
 const mas1 = [1, 2, 3, 4, 5, 6, 7];
 const mas2 = [8, 9, 10, 11, 12, 13];
 
 const combine = [...mas1, ...mas2];
 
-// 3. Функция findMax с rest-параметрами
+
 function findMax(...numbers) {
   if (numbers.length === 0) return undefined;
   return Math.max(...numbers);
